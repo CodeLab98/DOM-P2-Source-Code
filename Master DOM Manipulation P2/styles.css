@@ -1,0 +1,401 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(img/project-1.jpg) no-repeat center center/ cover;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+
+}
+
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button {
+
+    background-color: #262626;
+    color:#fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.button-area button:active {
+    background-color: lightblue;
+} */
+
+
+
+/* #################################
+
+           Modal Styling
+
+   ################################# */
+
+/* 
+   body {
+      background: url(img/project-2.jpg) no-repeat center center/ cover;
+      height: 100vh;
+      position: relative;
+   }
+
+   #open-btn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 2rem;
+    background: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+    transition: .5s;
+   }
+
+   #open-btn:hover {
+    background-color: #fff;
+    color: #000;
+   }
+
+   #modal {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-name: animatemodal;
+    animation-duration: .4s;
+   }
+
+   #close-btn {
+    font-size: 3rem;
+   }
+
+   #close-btn {
+    cursor: pointer;
+    font-size: 3rem;
+    color: #ff0000;
+   }
+
+   #modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0, .2);
+   } */
+
+   /* Modal Animation Section */
+
+   /* @keyframes animatemodal {
+      from {
+        top: -300px;
+        opacity: 0;
+      }
+
+      to {
+        top: 50%;
+        opacity: 1;
+      }
+   } */
+
+/* #################################
+
+       Accordian Styling
+
+   #################################  */
+
+/* body {
+    background: url(img/project-3.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
+.accordion {
+    width: 65%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.accordion .accordion-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.accordion .content-container .question {
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+
+    position: relative;
+}
+
+.accordion .content-container .question::after {
+    content: '+';
+
+    position: absolute;
+    right: -5px;
+}
+
+.accordion .content-container .answer {
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+
+} */
+
+/* Javascript Styling Link */
+/* 
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
+} */
+
+
+/* #################################
+
+       Stop-Watch Styling
+
+   #################################  */
+
+/* 
+
+   body {
+    height: 100vh;
+    background: url(img/project-4.jpg) no-repeat center top / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .container {
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow:  0 0 3px;
+   }
+
+   #timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+   }
+
+   .buttons {
+    text-align: center;
+   }
+
+   button {
+    margin: 0 10px;
+    border: none;
+   }
+
+   button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+   }
+
+   #play {
+    background-color: green;
+   }
+   #pause {
+    background-color: orange;
+   }
+   #reset {
+    background-color: red;
+   } */
+
+/* #################################
+
+         To-Do List Styling
+
+   #################################  */
+
+
+body {
+    height: 100vh;
+    background: url(img/project-5.jpg) no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task {
+
+    flex: 1;
+    transition: .3s;
+
+    font-size: 1.2rem;
+    padding: 5px;
+
+    background-color: #fff;
+    color: green;
+
+    border: green solid 2px;
+    border-radius: 10px;
+}
+
+#add-task:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
+/* Styling for task which get added to to-do list */
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.task .deleteTask {
+    color: red;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: #fff;
+}
